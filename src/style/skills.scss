@@ -1,0 +1,40 @@
+.skills-cat {
+    background-color: rgb(94, 91, 91);
+    color: rgb(250, 248, 248);
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 34px;
+    padding-top: 10px;
+    
+}
+
+// .skills-blocks {
+//     display: flex;
+//     align-items: center;
+//     position: relative;
+//     justify-content: center;
+//     justify-content: space-around;
+// }
+
+.skill {
+    font-size: 24px;
+    color: rgb(255, 243, 243);
+}
+
+.skills-block-inner {
+    background-color: rgb(49, 66, 80);
+    display: grid;
+    width: 300px;
+    height: 300px;
+    margin-top: 3rem;
+    border-radius: 8%;
+    box-shadow: 0 .6rem 0.4rem rgba(0,0,0,0.095)
+} 
+
+
+.icon {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    padding-left: 122px;
+    display: grid;
+}

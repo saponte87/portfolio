@@ -1,0 +1,79 @@
+.section-title {
+    color: white;
+    font-size: 80px;
+    display: grid;
+    justify-content: center;
+    padding-bottom: 45px;
+    font-weight: bold;
+}
+
+.p {
+    font-size: 25px;
+}
+
+.section-intro {
+    color: rgb(255, 255, 255);
+    background-color: rgba(23, 53, 75, 0.947);
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    width: 53.5%;
+    border: 3px solid rgb(27, 31, 33);
+    padding: 15px;
+    box-shadow: 0 .6rem .8rem rgba(0,0,0,.695);
+}
+
+
+
+.text-center {
+    padding-top: 5em;
+    background: #d24d57;
+    height: 850px;
+    
+}
+
+// .send-mail {
+//     width: 20%;
+//     position: relative;
+//     text-indent: 30px;
+//     margin: 3em auto 5em auto;
+//     color: #fff;
+//     border-color: #fff;
+//     font-size: 1em;
+//     padding: 1.5em 0;
+
+// }
+
+.button {
+    text-transform: uppercase;
+    border: 2px white;
+    display: block;
+    text-align: center;
+    border-radius: 4px;
+    transition: background-color 0.9s ease-in-out, 2s;
+    text-decoration: none;
+    
+
+    width: 20%;
+    // position: relative;
+    // text-indent: 30px;
+    margin: 3em auto 5em auto;
+    color: #fff;
+    font-size: 1em;
+    padding: 1.5em 0;
+    border: 3px solid white;
+}
+
+.button:hover {
+    background-color: white;
+    text-decoration: none;
+}
+
+.social-list-bottom {
+    color: white;
+    font-weight: bold;
+    display: flex;
+    // justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 200px;
+}

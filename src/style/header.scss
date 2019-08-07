@@ -1,0 +1,244 @@
+.header {
+    // background-image: url(/assets/headerimg.jpeg);
+    background-repeat: no-repeat;
+    // background-size: 100% 100%;
+    // background-attachment: fixed;
+    // background-position: center;
+    // background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: linear-gradient(
+        rgba(59, 119, 165, 0.45), 
+        rgba(220, 17, 17, 0.45)
+      ), url(/assets/headerimg.jpeg);
+    height: 99.986vh;
+    background-attachment: fixed;
+    
+}
+
+.profile-intro {
+    padding-top: 190px;
+    padding-left: 30px;
+    
+}
+
+.lead {
+    color: rgb(235, 235, 235);
+    font-size: 26px;
+}
+
+.name {
+    font-size: 66px;
+}
+
+
+.social-list {
+    // background-color: black;
+    // opacity: .8;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    padding-bottom: 7px;
+    // position: fixed;
+    // top: 0;
+    // left: 0;
+    // right: 0;
+    // z-index: 60;
+}
+
+.nav-link {
+
+    color: white;
+    font-size: 2em;
+}
+
+.nav-nav {
+    display: flex;
+}
+
+.nav-bar {
+    margin-top: 25.1rem;
+}
+
+// <!DOCTYPE html>
+// <html>
+// <head>
+//     <meta charset="utf-8" />
+//     <title>Menu</title>
+//     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+//     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+//     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
+//     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+//     <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+
+//     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+//     <link rel="stylesheet" href="/static/styles/common.css">
+//     <link rel="stylesheet" href="/static/styles/nav.css">
+//     <link rel="stylesheet" href="/static/styles/footer.css">
+//     <link rel="stylesheet" href="/static/styles/skewed-header.css">
+//     <link rel="stylesheet" href="/static/styles/square-grid.css">
+//     <link rel="stylesheet" href="/static/styles/helpers.css">
+//     <link rel="stylesheet" href="/static/styles/media-queries.css">
+
+// </head>
+// <body>
+//     <div class="skewed-header">
+//         <div class="header-bg" style="background-image: url('/static/images/backgrounds/menu.jpg');"></div>
+
+//         <div class="skewed-header-wrapper">
+//             <div class="skewed-header-content">
+//                 <div class="heading-wrapper">
+//                     <h1>Menu</h1>
+//                 </div>
+
+//                 <div class="links-wrapper">
+//                     <div class="nav-link">
+//                         <a href="/">Home</a>
+//                     </div>
+
+//                     <div class="nav-link">
+//                         <a href="/about">About</a>
+//                     </div>
+                    
+//                     <div class="nav-link">
+//                         <a href="/menu">Menu</a>
+//                     </div>
+
+//                     <div class="nav-link">
+//                         <a href="/contact">Contact</a>
+//                     </div>
+//                 </div>
+//             </div>
+//         </div>
+//     </div>
+
+//     <div class="squares-wrapper">
+//         <div class="squares">
+//             <div class="square">
+//                 <div class="img-wrapper">
+//                     <img src="/static/images/squares/fries-sq-1.jpg" alt="Fries">
+//                 </div>
+
+//                 <div class="square-text-wrapper">
+//                     <a href="#spicy" name="spicy" class="anchor-link">
+//                         <h1>Spicy</h1>
+//                     </a>
+
+//                     <ul>
+//                         <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+//                         <li>Cupiditate facilis tempora mollitia, nulla perspiciatis corporis quisquam!</li>
+//                         <li>Quis repellat iusto distinctio quas iure eaque aut?</li>
+//                         <li>Explicabo in omnis quam aliquid molestias optio cumque?</li>
+//                     </ul>
+//                 </div>
+//             </div>
+//             <div class="square">
+//                 <div class="square-text-wrapper">
+//                     <a href="#medium" name="medium" class="anchor-link">
+//                         <h1>Medium</h1>
+//                     </a>
+
+//                     <ol>
+//                         <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+//                         <li>Cupiditate facilis tempora mollitia, nulla perspiciatis corporis quisquam!</li>
+//                         <li>Quis repellat iusto distinctio quas iure eaque aut?</li>
+//                         <li>Explicabo in omnis quam aliquid molestias optio cumque?</li>
+//                     </ol>
+//                 </div>
+
+//                 <div class="img-wrapper">
+//                     <img src="/static/images/squares/fries-sq-2.jpg" alt="Fries">
+//                 </div>
+//             </div>
+//             <div class="square">
+//                 <div class="img-wrapper">
+//                     <img src="/static/images/squares/fries-sq-1.jpg" alt="Fries">
+//                 </div>
+
+//                 <div class="square-text-wrapper">
+//                     <a href="#mild" name="mild" class="anchor-link">
+//                         <h1>Mild</h1>
+//                     </a>
+
+//                     <ul>
+//                         <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+//                         <li>Cupiditate facilis tempora mollitia, nulla perspiciatis corporis quisquam!</li>
+//                         <li>Quis repellat iusto distinctio quas iure eaque aut?</li>
+//                         <li>Explicabo in omnis quam aliquid molestias optio cumque?</li>
+//                     </ul>
+//                 </div>
+//             </div>
+//             <div class="square">
+//                 <div class="square-text-wrapper">
+//                     <a href="#noflavor" name="noflavor" class="anchor-link">
+//                         <h1>No Flavor</h1>
+//                     </a>
+
+//                     <ul>
+//                         <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+//                         <li>Cupiditate facilis tempora mollitia, nulla perspiciatis corporis quisquam!</li>
+//                         <li>Quis repellat iusto distinctio quas iure eaque aut?</li>
+//                         <li>Explicabo in omnis quam aliquid molestias optio cumque?</li>
+//                     </ul>
+//                 </div>
+
+//                 <div class="img-wrapper">
+//                     <img src="/static/images/squares/fries-sq-2.jpg" alt="Fries">
+//                 </div>
+//             </div>
+//         </div>
+//     </div>
+
+//     <div class="footer">
+//         <div class="logo-footer">
+//             <img src="/static/images/logos/decamp-fantastic-fries-logo-white.png" alt="Logo">
+//         </div>
+
+//         <div class="footer-phone-hours">
+//             <span class="phone">
+//                 555 555 5555
+//             </span>
+
+//             <span class="hours">
+//                 10 am - midnight
+//             </span>
+//         </div>
+
+//         <div class="links-wrapper">
+//             <div class="nav-link">
+//                 <a href="/">Home</a>
+//             </div>
+
+//             <div class="nav-link">
+//                 <a href="/about">About</a>
+//             </div>
+            
+//             <div class="nav-link">
+//                 <a href="/menu">Menu</a>
+//             </div>
+
+//             <div class="nav-link">
+//                 <a href="/contact">Contact</a>
+//             </div>
+//         </div>
+
+//         <div class="social-media-icons-wrapper">
+//             <a href="#">
+//                 <i class="fab fa-instagram"></i>
+//             </a>
+
+//             <a href="#">
+//                 <i class="fab fa-twitter"></i>
+//             </a>
+
+//             <a href="#">
+//                 <i class="fab fa-facebook-f"></i>
+//             </a>
+//         </div>
+
+//         <div class="copyright-wrapper">
+//             &copy; 2018 DevCamp &#124; All rights reserved
+//         </div>
+//     </div>
+// </body>
+// </html>

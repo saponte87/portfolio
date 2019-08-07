@@ -1,0 +1,116 @@
+.projects-title {
+    background-color: #f8f8f8;
+    height: 400px;
+    display: grid;
+    justify-content: center;
+    justify-self: center;
+    // margin-top: 10em;
+    // font-size: 45px;
+}
+
+.proj-header {
+    margin: auto;
+    font-size: 55px;
+    width: 53.5%;
+    border: 3px solid #d24d57;
+    padding: 15px;
+    border-radius: 30%
+    
+}
+
+.proj {
+    font-size: 25px;
+    margin-bottom: -.2em;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-projects {
+    display: grid; 
+    margin-top: 4rem;
+}
+
+.project-one-img {
+    height: 310px;
+    width: 500px;
+    border-radius: 7px;
+    box-shadow: 0 .6rem 0.4rem rgba(0,0,0,0.095);
+    margin-left: 45em;
+    opacity: 0.5;
+    transition: background-color 0.9s ease-in-out, 1s;
+}
+
+.project-one-img:hover {
+    opacity: 1.0;
+    transition: background-color 0.9s ease-in-out, 1s;
+}
+
+.first-example {
+    
+}
+
+.example-inner {
+    background-color: lightgrey;
+    clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+    padding: 65px 20px;
+    display: grid;
+    justify-content: center;
+}
+
+.example-text-one {
+}
+
+.project-two-img {
+    height: 310px;
+    width: 500px;
+    border-radius: 7px;
+    box-shadow: 0 .6rem 0.4rem rgba(0,0,0,0.287);
+    opacity: 0.5;
+    transition: background-color 0.9s ease-in-out, 1s;
+}
+
+.project-two-img:hover {
+    opacity: 1.0;
+    transition: background-color 0.9s ease-in-out, 1s;
+}
+
+
+.second-example {
+    margin-top: 4em;
+
+}
+
+.second-example-inner {
+    display: flex;
+    margin-left: 16.666666%;
+}
+
+.example-text-two {
+    margin-top: 4em;
+    margin-left: 8em;
+}
+
+.third-example {
+    margin-top: 4em;
+    background-color: lightgrey;
+    clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+    padding: 65px 10px
+}
+
+.fourth-example {
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.project-one {
+    margin-left: 50%;
+    height: 310px;
+    width: 500px;
+    border-radius: 7px;
+}
+
+.tech-logo {
+    height: 55px;
+}
+
